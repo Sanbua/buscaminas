@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="iniciarBuscaminas.js"></script>
+    <title>Buscaminas</title>
+    <link rel="icon" type="image/x-icon"
+        href="https://cdn-icons-png.freepik.com/512/7975/7975203.png?ga=GA1.1.1903580212.1712508448&">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+
+    <!-- sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
+</head>
+
+<body>
+    <h1>BUSCAMINAS</h1>
+
+    <div id="dificultad">
+        <p>Elige la dificultad</p>
+        <button id="facil">Fácil</button>
+        <button id="medio">Medio</button>
+        <button id="dificil">Difícil</button>
+    </div>
+    <div id="info">
+        <img src="https://cdn-icons-png.flaticon.com/512/4908/4908299.png" alt="bandera">
+        <p> Banderas: <span id="banderas">?</span></p>
+    </div>
+
+    <main>
+        <div id="board">
+            <!-- aquí va el tablero -->
+        </div>
+    </main>
+    <div id="instrucciones">
+        <h2>Instrucciones: </h2>
+        <br>
+        <p>
+            Selecciona la dificultad. <br>
+            <br>
+            - Click izquierdo para descubrir una casilla. <br>
+            - Click derecho para poner una bandera. <br>
+            <br>
+            El número de banderas que puedes poner es igual al número de minas en el tablero. <br>
+            <br>
+            Si descubres una mina, pierdes. <br>
+            Si descubres todas las casillas que no tienen minas, ganas. <br>
+            <br>
+            ¡Buena suerte!
+        </p>
+    </div>
+
+</body>
+
+</html>

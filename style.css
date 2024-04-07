@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family: "Tilt Neon", sans-serif;
+}
+
+body {
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/01073865290819.5d61d475f0072.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 4px -1px 11px rgb(0, 238, 255), -2px 7px 18px rgb(79, 51, 158);
+    font-size: 40px;
+}
+
+#dificultad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dificultad p {
+    margin: 10px;
+}
+
+#dificultad button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #a16100e8;
+    color: #ffefd1;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0px 0px 5px 0px;
+}
+
+#info img {
+    width: 30px;
+    height: 30px;
+}
+
+main {
+    display: grid;
+    place-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* #board, .botones{
+    cursor: url("img/shovel32.cur"), auto;
+   
+} */
+
+.contenedorBtn {
+    display: flex;
+}
+
+#instrucciones{
+    display: grid;
+    place-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 20px 300px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #7f7f7fd2;
+    color: #000000;
+}
+
+/* estilos para botones o estados del boton */
+.botones {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: solid 1px #7f7f7f;
+    background-color: #6d6d6d;
+    margin: 2px;
+    border-radius: 3px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: -1px 0 #7f7f7f, 0 1px #7f7f7f, 1px 0 #7f7f7f, 0 -1px #7f7f7f;
+    color: cornflowerblue;
+}
+
+.abierto {
+    background-color: rgba(255, 194, 82, 0.80);
+}
+
+.bandera {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/4908/4908299.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(138, 255, 42, 0.80);
+}
+
+.bomba {
+    background-image: url("https://images.vexels.com/media/users/3/266419/isolated/preview/3e06a4d1b8bb30872aa97c335a1f73a0-linda-bomba-de-dibujos-animados.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(219, 80, 110, 0.80);
+}
+
+/* Sweet Alert 2 */
+.swal2-container .swal2-timer-progress-bar {
+    background-color: rgba(219, 80, 110, 0.80) !important;
+    height: 10px;
+}
