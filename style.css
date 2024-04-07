@@ -13,6 +13,12 @@ body {
     background-attachment: fixed;
 }
 
+[title="GitHub"] {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
 h1 {
     text-align: center;
     text-shadow: 4px -1px 11px rgb(0, 238, 255), -2px 7px 18px rgb(79, 51, 158);
@@ -71,7 +77,7 @@ main {
     place-content: center;
     align-items: center;
     justify-items: center;
-    margin: 20px 300px;
+    margin: 2em 5em;
     padding: 20px;
     border-radius: 5px;
     background-color: #7f7f7fd2;
