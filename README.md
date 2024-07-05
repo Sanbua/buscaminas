@@ -1,6 +1,8 @@
 # Buscaminas
 Este juego fue creado como práctica para el segundo curso de Desarrollo de Aplicaciones Web.
 
+## [Puedes probarlo aquí](https://sandrabua.github.io/buscaminas/) 🙂
+
 ![image](https://github.com/Sandrabua/buscaminas/assets/134967268/3894f450-2105-4067-b42a-120d7d783ff1)
 
 > [!IMPORTANT]
