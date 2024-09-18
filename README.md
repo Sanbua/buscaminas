@@ -11,7 +11,7 @@ A continuación se enumeran las tareas logradas para que el juego funcione:
 - Manejar eventos en el cliente.
   - Seleccionar la dificultad del juego.
   - Progreso del tablero.
-  - Contol de bombas marcadas.
+  - Control de bombas marcadas.
   - Casillas descubiertas.
 - Generación del tablero.
   - Manejar los límites del tablero.
@@ -22,7 +22,7 @@ A continuación se enumeran las tareas logradas para que el juego funcione:
 - Algoritmo de revelación de casillas.
   - Evitar largos tiempos de cálculo.
   - Cálculo de bombas colindantes.
-  - Revelar casillas vacias hasta llegar a los límites o una con bomba.
+  - Revelar casillas vacías hasta llegar a los límites o una con bomba.
   - Cálculo de las banderas colocadas. 
 - Estética.
   - Todos los tableros centrados.
